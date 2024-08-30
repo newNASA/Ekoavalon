@@ -1,6 +1,8 @@
 import "./footer.scss";
 import "../../assets/scss/style.scss";
 
+import logo from "../../assets/imgs/logo.svg"
+
 function Footer() {
   return (
     <footer>
@@ -13,7 +15,7 @@ function Footer() {
         </p>
         <button className="contact">Buyurtma qilish</button>
       </div>
-      <img src="./imgs/logo.svg" alt="log img" />
+      <img src={logo} alt="log img" />
       <h1>Toza Makon</h1>
       <p className="tozalik">Tozalik biz bilan boshlanadi</p>
     </footer>

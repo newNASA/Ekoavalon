@@ -1,0 +1,19 @@
+.about{
+  .b1{
+      .menu-w{
+          .siz-2{
+              color: var(--ink-color);
+          }
+      }
+      .infos{
+          display: flex;
+          gap: 20px;
+          p{
+              color: var(--dark-white);
+          }
+          h2{
+              color: var(--green);
+          }
+      }
+  }
+}
