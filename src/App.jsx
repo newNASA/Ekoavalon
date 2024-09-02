@@ -11,6 +11,8 @@ import Footer from "./components/Footer/footer";
 import Services from "./components/Services/Services";
 import About from "./components/About/about";
 
+import "./assets/scss/style.scss"
+
 function App() {
   return (
     <Router>
