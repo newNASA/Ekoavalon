@@ -104,5 +104,9 @@
 @media screen and (max-width:1025px) {
   .forYou{
     padding-inline: 40px;
+
+    .bottom{
+      flex-wrap: wrap;
+    }
   }
 }

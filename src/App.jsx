@@ -8,7 +8,7 @@ import OurApp from "./components/OurApp/ourapp";
 import Customers from "./components/Customers/customers";
 import Partners from "./components/Partners/partners";
 import Footer from "./components/Footer/footer";
-import Services from "./components/Services/Services";
+import Services from "./components/Products/Products";
 import About from "./components/About/about";
 
 import "./assets/scss/style.scss"
@@ -25,7 +25,6 @@ function App() {
               <Header />
               <Why />
               <ForYou />
-              <OurApp />
               <Customers />
               <Partners />
             </>
