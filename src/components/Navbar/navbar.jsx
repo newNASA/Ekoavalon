@@ -59,7 +59,7 @@ function Navbar() {
         <Link to="/">
           <div className="left">
             <img src={logo} alt="logo img" />
-            <h1>Toza Makon</h1>
+            <h1>EkoAvalon</h1>
           </div>
         </Link>
         <div className="center">
@@ -77,7 +77,7 @@ function Navbar() {
           <button className="gamburger">
             <img src={hamburger} alt="gamburger img" />
           </button>
-          <a href="https://play.google.com/store/apps/details?id=io.hometasker.android" target="_blank" className="ilova" rel="noreferrer">Ilovamizni sinab ko'ring</a>
+          {/* <a href="https://play.google.com/store/apps/details?id=io.hometasker.android" target="_blank" className="ilova" rel="noreferrer">Ilovamizni sinab ko'ring</a> */}
         </div>
       </nav>
     </div>

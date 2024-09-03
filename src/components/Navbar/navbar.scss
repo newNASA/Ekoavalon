@@ -64,14 +64,12 @@ nav {
   }
 
   .center {
-    width: 30%;
-    height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-weight: 600;
-    gap: 20px;
-    font-size: 18px;
+    gap: 30px;
+    font-size: 1.2rem;
 
     a {
       color: var(--ink-color);
@@ -83,7 +81,7 @@ nav {
         margin-left: 5px;
       }
 
-      &:hover{
+      &:hover {
         color: var(--green);
       }
 
@@ -135,6 +133,181 @@ nav {
         background: transparent;
         border: 1px solid var(--green);
         color: var(--green);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .nav-top {
+    padding-inline: 40px;
+
+    .left {
+      align-items: center;
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .text {
+        width: 250px;
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
+
+  nav {
+    padding-inline: 40px;
+
+    .left {
+      h1 {
+        font-size: 25px;
+      }
+    }
+
+    .center {
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 10px;
+
+      a {
+        font-size: 1rem;
+      }
+    }
+
+    .right {
+      button {
+        width: 40px;
+        height: 40px;
+
+      }
+
+      .hidden {
+        width: 40px;
+        margin-left: 50px;
+        margin-top: 138px;
+
+        .en,
+        .ru {
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) and (min-width: 426px) {
+  .nav-top {
+    padding: 0 40px;
+
+    .left {
+      .arrow {
+        display: none;
+      }
+
+      .text,
+      .ish {
+        display: none;
+      }
+    }
+  }
+
+  nav {
+    padding: 0 40px;
+
+    .left {
+      h1 {
+        display: flex;
+      }
+    }
+
+    .center {
+      display: none;
+    }
+
+    .right {
+      .gamburger {
+        display: flex;
+      }
+
+      .ilova {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:426px) {
+
+  .nav-top,
+  .footer-bottom {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 12px;
+    height: 40px;
+
+    .left {
+      img {
+        width: 20px;
+        height: 20px;
+      }
+
+      .arrow,
+      .text,
+      .ish {
+        display: none;
+      }
+    }
+  }
+
+  nav {
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 60px;
+
+    .left {
+      h1 {
+        display: none;
+      }
+    }
+
+    .center {
+      display: none;
+    }
+
+    .right {
+      .toggle-theme {
+        img {
+          width: 20px;
+
+        }
+      }
+
+      .profile {
+        img {
+          width: 20px;
+        }
+      }
+
+      .uz {
+        font-size: 12px;
+      }
+
+      .gamburger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button {
+        width: 33px;
+        height: 33px;
+      }
+
+      .ilova {
+        display: none;
       }
     }
   }

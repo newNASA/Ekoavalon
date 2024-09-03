@@ -30,7 +30,7 @@ function Why() {
         <div className="bx right">
           <img src={ProService} alt="pro service img" />
           <h4>Mutaxassislar xizmati</h4>
-          <p>Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun <br /> keng ko'lamli xizmatlarni
+          <p>Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli xizmatlarni
             taqdim etamiz.</p>
         </div>
       </div>

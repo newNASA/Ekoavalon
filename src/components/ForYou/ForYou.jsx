@@ -1,9 +1,9 @@
 import "./foryou.scss";
 import "../../assets/scss/style.scss";
 
-import clean from "../../assets/imgs/clean-ser.png";
-import desinfeksiya from "../../assets/imgs/desinfeksiya-ser.png";
-import washing from "../../assets/imgs/washing-ser.png";
+import product1 from "../../assets/imgs/product1.jpg";
+import product2 from "../../assets/imgs/product2.jpg";
+import product3 from "../../assets/imgs/product3.jpg";
 
 function ForYou() {
   return (
@@ -17,30 +17,26 @@ function ForYou() {
       </div>
       <div className="bottom">
         <div className="card left">
-          <img src={clean} alt="clean-service img" />
-          <p className="title-p">Tozalash xizmatlari</p>
-          <p className="content-p">Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli
-            xizmatlarni taqdim etamiz.</p>
+          <img src={product1} alt="clean-service img" />
+          <p className="title-p">Birinchi Tovar</p>
+          <p className="content-p">Narx: <b>10000</b></p>
           <button><a href="./pages/info-xizmatlar.html">Batafsil</a></button>
         </div>
         <div className="card center">
-          <img src={desinfeksiya} alt="desinfeksiya-service img" />
-          <p className="title-p">Dizinfeksiya xizmatlari</p>
-          <p className="content-p">Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli
-            xizmatlarni taqdim etamiz.</p>
+          <img src={product2} alt="desinfeksiya-service img" />
+          <p className="title-p">Ikkinchi Tovar</p>
+          <p className="content-p">Narx: <b>10000</b></p>
           <button><a href="./pages/info-xizmatlar.html">Batafsil</a></button>
         </div>
         <div className="card right">
-          <img src={washing} alt="washing-service img" />
-          <p className="title-p">Yuvish xizmatlari</p>
-          <p className="content-p">Biz sizning uyingiz va ofisingiz tozaligi va farovonligi uchun keng ko'lamli
-            xizmatlarni taqdim etamiz.</p>
+          <img src={product3} alt="washing-service img" />
+          <p className="title-p">Uchinchi Tovar</p>
+          <p className="content-p">Narx: <b>10000</b></p>
           <button><a href="./pages/info-xizmatlar.html">Batafsil</a></button>
         </div>
       </div>
     </div>
-
-  );
+  )
 }
 
 export default ForYou;
